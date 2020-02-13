@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'airbnb-base',
+		'plugin:jest/recommended'
   ],
   globals: {
     Atomics: 'readonly',
@@ -15,6 +16,7 @@ module.exports = {
     sourceType: 'module',
   },
 	plugins: [
+		'jest',
     'svelte3'
   ],
 	overrides: [

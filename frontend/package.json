@@ -13,6 +13,7 @@
     "@babel/preset-env": "^7.8.4",
     "@rollup/plugin-commonjs": "^11.0.0",
     "@rollup/plugin-node-resolve": "^7.0.0",
+    "@testing-library/svelte": "^1.11.0",
     "babel-jest": "^25.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -32,7 +33,7 @@
   },
   "jest": {
     "transform": {
-			"^.+\\.js$": "babel-jest",
+      "^.+\\.js$": "babel-jest",
       "^.+\\.svelte$": "svelte-jester"
     },
     "moduleFileExtensions": [

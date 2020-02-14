@@ -10,7 +10,8 @@ Build w/ [FastAPI](https://fastapi.tiangolo.com/) & [Svelte](https://svelte.dev/
 `(cd frontend; npm i; npm run build)`
 2. Run the web app:
 `(cd backend; uvicorn main:app --reload`)
-3. Follow the output from the command line.
+3. Follow the output from the command line on errors (like absent dependencies).
+4. FE app is served on [127.0.0.1:8000](http://127.0.0.1:8000), while the activity data is on [127.0.0.1:8000/api/activity](http://127.0.0.1:8000/api/activity) (and auto-generated API docs are on [127.0.0.1:8000/docs](http://127.0.0.1:8000/docs))
 
 ## Running tests
 ### FE

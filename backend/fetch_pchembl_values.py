@@ -37,6 +37,7 @@ def fetch_pchembl_values(target, molecule, activity_client):
 
 def save_data_to_json(data, file_name):
 	json_ext = ".json"
+	# FIXME: make sure data/ dir is create in backend/ dir
 	file_path = "./data/" + (
 		file_name if file_name.endswith(json_ext) else file_name + json_ext)
 	import os
